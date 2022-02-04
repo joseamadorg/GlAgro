@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/sytles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@300;400;600;700&display=swap"/>
+</head>
+<body>
+
+    <header>
+        <nav class="navBar">
+            <a class="navBar__Icon" href="../index.html"><img src="../images/GL-Agro-icono.png" height="75" width="60" alt=""></a>
+            <h1 class="navBar__Title">Estudio juridico y contable</h1>
+            <ul class="navBar__Buttons" style="list-style: none;">
+                <a href="../pages/areas.html"><li class="navBar__Buttons1"><p>AREAS</p></li></a>
+                <a href="../pages/trabajo.html"><li class="navBar__Buttons1"><p>TRABAJO</p></li></a>
+                <a href="../pages/equipo.html"><li class="navBar__Buttons1"><p>EQUIPO</p></li></a>
+                <a href="../pages/contacto.html"><li class="navBar__Buttons1"><p>CONTACTO</p></li></a>
+            </ul>   
+        </nav>
+    </header>  
+
+    <section class="contacto">
+        <h2 class="contactoTitle">Contactanos</h2>
+        <article class="contactInfo">
+            <div class="whatsapp">
+                <img class="whatsapp__Img" src="../images/whatsapp.jpg" alt="" width="100" height="100">
+                <p class="whatsapp__Number">+54 *** *** ****</p>
+            </div>
+            <div class="phone">
+                <img class="phone__Img" src="../images/phone.png" alt="" width="100" height="100">
+                <p class="phone__Number">+54 *** *** ****</p>
+            </div>
+            <div class="mail">
+                <img class="mail__Img" src="../images/mail.jpg" alt="" width="100" height="100">
+                <pc class="mail__Mail">*********@gmail.com</p>
+            </div>
+        </article>
+
+        <article class="mapInfo">
+            <div class="adress">
+                <img class="adress__Img" src="../images/house.jpg" alt="" width="100" height="100">
+                <p class="adress__Text">Direccion</p>
+            </div>
+            <div class="location">
+                <img class="location__Img" src="../images/pin.png" alt="" width="100" height="100">
+                <p class="location__Text">Ubicacion</p>
+            </div>
+            <img class="map" src="../images/mapa.png" alt="" width="500" height="450">
+        </article>
+
+        <article class="contactForm">  
+            <h3>Escribinos</h3>
+            <form>       
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+            
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+            
+            
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu mensaje..."></textarea> 
+                </p>                    
+            
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            </form>
+        </article>
+    </section>
+
+    <hr/>
+
+    <footer>
+        <p>Copyright © 2022 Estudio GL</p>
+    </footer>
+</body>
+</html>
