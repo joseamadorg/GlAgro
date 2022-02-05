@@ -58,7 +58,9 @@ html {
   }
 
 body{
-    background-color: #555;
+    background-color: #97e971;
+    background-image: linear-gradient(0deg, #cfe971 0%, #FFFB7D 100%);
+
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 	padding: 0;
@@ -67,7 +69,7 @@ body{
 
 .navBar{
     background: rgb(213,245,210);
-    background-image: linear-gradient(to right, #DCE35B 0%, #45B649  51%, #DCE35B  100%);
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     display: flex;
     flex-direction: row;
     padding-top: 10px;
@@ -90,8 +92,8 @@ body{
     display: none;
 }
 
+.navBar__Buttons1 {background-image: linear-gradient(90deg, rgba(204,215,27,1) 0%, rgba(115,147,0,1) 100%);}
 .navBar__Buttons1 {
-   background-image: linear-gradient(to right, #DCE35B 0%, #45B649  51%, #DCE35B  100%);
    margin: 10px;
    padding: 1px 5px 1px 5px;
    text-align: center;
@@ -99,20 +101,23 @@ body{
    transition: 0.5s;
    background-size: 200% auto;
    color: black;            
-   box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+   box-shadow: 3.1px 6.25px 12.5px hsl(0deg 0% 0% / 0.31);
    border-radius: 5px;
-   display: block;
+   display: block
  }
 
-.navBar__Buttons1:hover {
+ .navBar__Buttons1:hover {
    background-position: right center;
    color: black;
    text-decoration: none;
-}
+   box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+ }
+
 
 .navBar__Buttons{
     margin-right: 15px;
     display: flex;
+    flex-direction: row;
     padding-inline-start: 0px;
 }
 
@@ -162,7 +167,7 @@ body{
 }
 
 .mainArticle__Bloque1, .mainArticle__Bloque2{
-    background-color:#F7B82D;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80%;
@@ -191,6 +196,7 @@ body{
 
 .mainArticle__Img1, .mainArticle__Img2{
     width: 100%;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
 }
 
 .clients{
@@ -210,7 +216,7 @@ body{
 }
 
 .clients__Imgs{
-    background-color:#F7B82D;
+    background: radial-gradient(circle, rgba(218,232,14,1) 0%, rgba(199,183,42,1) 100%);
 
     display: flex;
     flex-direction: row; 
@@ -231,6 +237,7 @@ body{
     background-color: white;
     border-radius: 10px;
     width: 20%;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
 }
 
 .clients__Comments{
@@ -243,7 +250,7 @@ body{
 }
 
 .clients__Comment1, .clients__Comment2{
-    background-color: chocolate;
+    background: radial-gradient(circle, rgba(218,232,14,1) 0%, rgba(199,183,42,1) 100%);
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
     border-radius: 20px;
     padding: 30px 30px 30px 30px
@@ -304,7 +311,7 @@ body{
 }
 
 .step1, .step2, .step3{
-    background-color: #E8AE4A;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     display: flex;
     flex-direction: row;
     margin-left: 100px;
@@ -796,8 +803,8 @@ footer p{
     .clients__Imgs{
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr;
-        padding-top: 0px;
-        padding-bottom: 0px; 
+        padding: 10px 10px 10px 10px;
+        border-radius: 20px;
         height: 300px;
         gap: 1rem;
         background-color: transparent;
@@ -928,15 +935,30 @@ footer p{
     }
 
     .mainArticle__Bloque1, .mainArticle__Bloque2{
-        padding: 3% 3% 3% 3%;
+        padding: 3% 3% 4% 3%;
 
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        grid-template-rows: auto auto;
+        grid-template-columns: none;
     }
 
     .mainArticle__Texto1, .mainArticle__Texto2{
         font-size: 12.5px;
+
+    }
+
+    .mainArticle__Titulo1, .mainArticle__Titulo2{
+        font-size: 1.5rem;
+    }
+
+    .mainArticle__Img1, .mainArticle__Img2{
+        height: auto;
+    }
+
+    .mainArticle__Img2{
+        margin-bottom: 10px;
     }
 
     .clients{
