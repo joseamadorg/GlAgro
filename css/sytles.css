@@ -73,6 +73,7 @@ body{
     display: flex;
     flex-direction: row;
     padding-top: 10px;
+    width: 100%;
 }
 
 .menu-btn{
@@ -224,7 +225,7 @@ body{
 
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
 
-    width: 90%;
+    width: 90vw;
 
     padding-top: 40px;
     padding-bottom: 40px; 
@@ -267,7 +268,7 @@ body{
     grid-template-rows: auto auto auto auto auto;
     gap: 9rem;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .trabajoTitle{
@@ -280,6 +281,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap:10%;
+    width: 100%;
 }
 
 .steps a{
@@ -292,8 +295,9 @@ body{
 }
 
 .steps__Step1, .steps__Step2, .steps__Step3{
-    background-color: #E8AE4A;
+    background-image: linear-gradient(90deg, rgba(204,215,27,1) 0%, rgba(115,147,0,1) 100%);
     padding: 10px 20px 10px 20px;
+    margin: auto;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -312,12 +316,14 @@ body{
 
 .step1, .step2, .step3{
     background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
-    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
-    height: 490px;
+    width: 90%;
+    height:110%;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
 }
 
@@ -326,33 +332,43 @@ body{
     flex-direction: column;
     margin-left: 50px;
     margin-top: 15px;
-    margin-right: 60px;
-    overflow: hidden;
+    overflow-y: auto;
+}
+
+.step2__Div{
+    margin-left: 0%;
 }
 
 .step1__Title, .step2__Title, .step3__Title{
     font-size: 40px;
-    margin-bottom: 1px;
+    margin: 10px;
 }
 
 .step1__SubTitle, .step2__SubTitle, .step3__SubTitle{
     font-size: 25px;
     font-family: 'Merriweather', serif;
+    margin: 5px;
 }
 
 .step1__Text, .step2__Text, .step3__Text{
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Merriweather', serif;
 }
 
 .step1__Img, .step3__Img{
     align-self: center;
-    margin-right: 50px;
+    justify-self: center;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
 }
 
 .step2__Img{
     align-self: center;
-    margin-left: 50px;
+    justify-self: center;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+}
+
+.step1__Img, .step2__Img, .step3__Img{
+    width: 90%;
 }
 
 /* EQUIPO */
@@ -373,20 +389,17 @@ body{
 
 .profile1, .profile2{
     display: flex;
+    gap: 10%;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.profile1__Img{
-    margin-right: 70px;
-}
-
-.profile2__Img{
-    margin-left: 70px;
+.profile1__Img, .profile2__Img{
+    align-self: center;
 }
 
 .profile1__Div, .profile2__Div{
-    background-color: lightgrey;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
@@ -430,22 +443,26 @@ body{
     display: flex;
     gap: 2rem;
     margin: auto;
+    width: 40vw;
+    height: 150%;
 }
 
 .areasButtons button{
-    width: 150px;
-    height: 60px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    background-image: linear-gradient(90deg, rgba(204,215,27,1) 0%, rgba(115,147,0,1) 100%);
+    border: none;
 }
 
 .areasText{
     margin-right: 170px;
     margin-left: 170px;
     padding: 20px 30px 20px 30px;
-    background-color: #E8AE4A;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     border-radius: 20px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
 }
@@ -486,8 +503,8 @@ body{
 .whatsapp, .phone{
     display: flex;
     flex-direction: row;
-    width: auto;
-    background-color:#E8AE4A;
+    width: 20vw;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     padding: 15px 15px 15px 15px;
     border-radius: 20px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
@@ -506,40 +523,64 @@ body{
 .mail{
     display: flex;
     flex-direction: row;
-    width: auto;
-    background-color:#E8AE4A;
-    padding: 15px 55px 15px 15px;
+    width: 20vw;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+    padding: 15px 75px 15px 15px;
     border-radius: 20px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
 }
 
 .mapInfo{
-    background-color:#E8AE4A;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 1000px;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 83vw;
     height: 550px;
     display: grid;
     grid-auto-flow: column;
-    grid-template: 275px 275px / 400px 600px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     border-radius: 20px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
 }
 
-.mapInfo img{
-    margin: 50px 50px 50px 50px;
+.mapInfo__Div{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+    height: fit-content;
+    align-self: center;
 }
 
 .adress, .location{
     display: flex;
     flex-direction: row;
+    gap: 4rem;
     width: 17%;
     margin-left: 50px;
 }
 
 .adress__Img, .location__Img{
     align-self: center;
-    margin-right: 30px;
+    width: 100%;
+    height: auto
+}
+
+.mapouter{
+    position: relative;
+    align-self: center;
+    width:80%;
+    height:80%;
+    object-fit:cover;
+}
+
+.mapouter iframe{
+    position: relative;
+    align-self: center;
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 .adress__Text, .location__Text{
@@ -562,7 +603,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    background-color:#E8AE4A;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
     border-radius: 20px;
     padding-left: 0px;
     box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
@@ -572,6 +613,8 @@ body{
     display: flex;
     flex-direction: column;
     align-self: center;
+    align-items: center;
+    width: 60%;
 }
 
 .contactForm form p label{
@@ -579,20 +622,20 @@ body{
 }
 
 .contactForm form p input{
-    width: 400px;
+    width: 90%;
     height: 40px;
     font-size: 20px;
 }
 
 .contactForm form p textarea{
-    width: 560px;
+    width: 100%;
     height: 300px;
     font-size: 20px;
     margin-bottom: 40px;
 }
 
 .contactForm form button{
-    width: 200px;
+    width: 20%;
     align-self: center;
     font-size: 20px;
 }
@@ -618,6 +661,7 @@ footer p{
 }
 
 @media screen and (max-width: 425px) {
+
 
     .navBar{
         width: 100%;
@@ -823,6 +867,267 @@ footer p{
         flex-direction: column;
         padding: 20px 30px 20px 30px
     }
+
+    /* TRABAJO */
+
+    .trabajo{
+        gap: 3rem
+    }
+    .trabajoTitle{
+        font-size: 22px;
+    }
+
+    .steps{
+        width: 90vw;
+        justify-self: center;
+    }
+
+    .steps__Step1, .steps__Step2, .steps__Step3{
+        width: 80%;
+        padding: 10%;
+
+    }
+
+    .steps__Img1, .steps__Img2, .steps__Img3{
+        width: 40%;
+        height: auto;
+        margin-right: auto;
+    }
+
+    .steps__Title1, .steps__Title2, .steps__Title3{
+        font-size: 12px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    .step1{
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        gap: 0px
+    }
+
+    .step2, .step3{
+        display:none
+    }
+
+    .step1__Img, .step2__Img, .step3__Img{
+        height: auto;
+    }
+    
+    .step1__Div, .step2__Div, .step3__Div{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .step1__Title, .step2__Title, .step3__Title{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .step1__SubTitle, .step2__SubTitle, .step3__SubTitle{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .step1__Text, .step2__Text, .step3__Text{
+        font-size: 13px;
+    }
+
+    /* EQUIPO */
+
+    .equipo{
+        gap: 3rem
+    }
+    
+    .equipoTitle{
+        font-size: 22px;
+    }
+    
+    .profile1, .profile2{
+        margin: 0;
+        gap: 10%;
+        flex-direction: column;
+    }
+
+    .profile2{
+        flex-direction: column-reverse;
+    }
+    
+    .profile1__Img, .profile2__Img{
+        width: 45vw;
+        height: auto;
+        margin-bottom: 5%;
+    }
+    
+    .profile1__Div, .profile2__Div{
+        margin: 5%;
+    }
+    
+    .profile1__Name, .profile2__Name{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .profile1__Desc, .profile2__Desc{
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .profile1__Text, .profile2__Text{
+        font-size: 13px;
+    }
+
+    /* AREAS */
+
+    .areas{
+        gap: 3rem;
+        justify-items: center;
+    }
+    
+    .areasTitle{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .areasButtons{
+        display: grid;
+        grid-template: auto auto auto / auto auto auto;
+        gap: 1rem;
+        width: fit-content;
+        margin:0;
+    }
+    
+    .button5{
+        grid-column: 3;
+    }
+
+    .areasButtons button{
+        height: 120%;
+    }
+    
+    .areasText{
+        margin: 5%;
+        height: 60vh;
+        overflow: auto;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    
+    .areasText h3{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .areasText p{
+        font-size: 13px;
+    }
+
+    /* CONTACTO */
+
+    .contacto{
+        gap: 3rem;
+        justify-items: center;
+        margin-bottom: 10%;
+    }
+
+    .contactoTitle{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contactInfo{
+        width: 80vw;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .whatsapp, .phone, .mail{
+        padding: 0;
+        width: fit-content;
+        padding: 3%;
+        justify-content: center;
+    }
+
+    .whatsapp__Img, .phone__Img, .mail__Img{
+        width: 15%;
+        height: auto;
+        margin: 0;
+        margin-right: 15%;
+    }
+
+    .mail__Img{
+        margin-right: 10%;
+    }
+
+    .whatsapp__Number, .phone__Number, .mail__Mail{
+        font-size: 16px;
+    }
+
+    .mapInfo{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        height: 450px;
+    }
+
+    .mapInfo__Div{
+        width: 100%;
+    }
+
+
+    .adress, .location{
+        gap: 1rem;
+        width: 20%;
+        margin: 0;
+    }
+
+    .mapInfo__Div{
+        width: 80%;
+        gap: 2rem;
+    }
+
+    .adress__Text, .location__Text{
+        font-size: 16px;
+    }
+
+    .contactForm{
+        margin: 0;
+        width: 80vw;
+    }
+    
+    .contactForm h3{
+        font-size: 22px;
+    }
+    
+    .contactForm form p{
+        width: 90%;
+
+    }
+    
+    .contactForm form p label{
+        font-size: 16px;
+    }
+    
+    .contactForm form p input{
+        height: 30px;
+        font-size: 16px;
+    }
+    
+    .contactForm form p textarea{
+        width: 90%;
+        font-size: 16px;
+        height: 150px;
+        margin-bottom: 0;
+    }
+    
+    .contactForm form button{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .aviso{
+        text-align: center;
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -946,11 +1251,12 @@ footer p{
 
     .mainArticle__Texto1, .mainArticle__Texto2{
         font-size: 12.5px;
-
+        margin-left: 0;
     }
 
     .mainArticle__Titulo1, .mainArticle__Titulo2{
         font-size: 1.5rem;
+        margin-left: 0;
     }
 
     .mainArticle__Img1, .mainArticle__Img2{
@@ -958,7 +1264,7 @@ footer p{
     }
 
     .mainArticle__Img2{
-        margin-bottom: 10px;
+        grid-row: 2;
     }
 
     .clients{
