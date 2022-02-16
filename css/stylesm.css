@@ -431,3 +431,229 @@ body{
     font-size: 13px;
     font-family: 'Merriweather', serif;
 }
+
+
+
+.areas{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-items: center;
+}
+
+.areasTitle{
+        font-size: 22px;
+        text-align: center;
+}
+
+.areasButtons{
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    gap: 1rem;
+    margin: 0;
+    width: fit-content;
+    height: 150%;
+}
+
+.areasButtons button{
+    width: 100%;
+    height: 120%;
+    border-radius: 10px;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(90deg, rgba(204,215,27,1) 0%, rgba(115,147,0,1) 100%);
+    border: none;
+}
+
+.button5{
+        grid-column: 3;
+    }
+
+.areasText{
+	margin: 5%;
+    padding: 20px 30px 20px 30px;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+    border-radius: 20px;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+    height: 60vh;
+    overflow-y: auto;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.areasText h3{
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+
+.areasText p{
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+}
+
+
+
+.contacto{
+    display: grid;
+    grid-template-rows: auto, auto, auto, auto;
+    gap: 3rem;
+    justify-items: center;
+    margin-bottom: 10%;
+}
+
+.contactoTitle{
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+}
+
+.contactInfo{
+    gap: 2rem;
+}
+
+.whatsapp, .phone, .mail{
+    padding: 3%;
+    height: 60px;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+}
+
+.whatsapp__Img, .phone__Img, .mail__Img{
+    width: 15%;
+    height: auto;
+    align-self: center;
+}
+
+.whatsapp__Number, .phone__Number, .mail__Mail{
+    font-size: 16px;
+    align-self: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.mapInfo{
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 83vw;
+    height: 450px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    border-radius: 20px;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+}
+
+.mapInfo__Div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+}
+
+.adress, .location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    width: fit-content;
+    margin: 0;
+}
+
+.adress__Img, .location__Img{
+    align-self: center;
+    width: 20%;
+    height: auto
+}
+
+.mapouter{
+    position: relative;
+    align-self: center;
+    width:80%;
+    height:80%;
+    object-fit:cover;
+}
+
+.mapouter iframe{
+    position: relative;
+    align-self: center;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.adress__Text, .location__Text{
+    font-size: 16px;
+    align-self: center;
+}
+
+.contactForm{
+    margin: 0;
+    width: 80vw;
+}
+
+.contactForm h3{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+    border-radius: 20px;
+    padding-left: 0px;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.31);
+}
+
+.contactForm form p{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 90%;
+}
+
+.contactForm form p label{
+    font-size: 16px;
+}
+
+.contactForm form p input{
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.contactForm form p textarea{
+    width: 90%;
+    height: 150px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.contactForm form button{
+    width: 50%;
+    align-self: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contactForm form button p{
+    display: inline-block;
+}
+
+.aviso{
+    text-align: center;
+    font-size: 13px;
+}

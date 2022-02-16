@@ -396,6 +396,18 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* AREAS */
 
 
@@ -859,6 +871,7 @@ footer p{
         width: fit-content;
         padding: 3%;
         justify-content: center;
+        margin-right: 0;
     }
 
     .whatsapp__Img, .phone__Img, .mail__Img{
