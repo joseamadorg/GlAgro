@@ -126,7 +126,7 @@ body{
 }
 
 .navBar__Title{
-    align-self: center;
+    align-items: center;
 }
 
 .logo img{

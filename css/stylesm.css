@@ -116,6 +116,10 @@ body{
     text-decoration: none;
 }
 
+.navBar__Title{
+    align-self: center;
+}
+
 .index{
     display: grid;
     grid-template-rows: auto auto auto;
@@ -134,7 +138,7 @@ body{
 .logo{
     padding-top: 10%;
     padding-bottom: 10%;
-    margin-bottom: -40%;
+    margin-bottom: -30%;
     background-repeat: no-repeat;
     background-image: url(../images/Graupera-Home-07.jpg);
     background-size: 100%;
@@ -181,7 +185,7 @@ body{
 
 .mainArticle__Titulo1, .mainArticle__Titulo2{
     font-size: 19px;
-    background-color: rgba(102, 102, 102, 0.925);
+    background-color: rgba(145, 143, 143, 0.925);
     border-radius: 10px;
     text-align: center;
     text-decoration-line: underline;
@@ -193,7 +197,7 @@ body{
 
 .mainArticle__Texto1, .mainArticle__Texto2{
     font-size: 12px;
-    background-color: rgba(102, 102, 102, 0.925);
+    background-color: rgba(145, 143, 143, 0.925);
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -256,9 +260,8 @@ body{
 
 .clients__Cite1, .clients__Name1, .clients__Cite2, .clients__Name2{
     font-family: 'Merriweather', serif;
+    font-size: 14px;
 }
-
-
 
 .trabajo{
     display: grid;
@@ -370,13 +373,6 @@ body{
     width: 90%;
 }
 
-
-
-
-
-
-
-
 .equipo{
     display: grid;
     grid-template-rows: auto, auto, auto;
@@ -432,8 +428,6 @@ body{
     font-family: 'Merriweather', serif;
 }
 
-
-
 .areas{
     display: grid;
     grid-template-rows: auto auto auto;
@@ -444,8 +438,8 @@ body{
 }
 
 .areasTitle{
-        font-size: 22px;
-        text-align: center;
+    font-size: 22px;
+    text-align: center;
 }
 
 .areasButtons{
@@ -467,10 +461,6 @@ body{
     background-image: linear-gradient(90deg, rgba(204,215,27,1) 0%, rgba(115,147,0,1) 100%);
     border: none;
 }
-
-.button5{
-        grid-column: 3;
-    }
 
 .areasText{
 	margin: 5%;
@@ -525,8 +515,9 @@ body{
 }
 
 .whatsapp__Img, .phone__Img, .mail__Img{
-    width: 15%;
+    width: 20%;
     height: auto;
+    max-height: 90%;
     align-self: center;
 }
 
@@ -656,4 +647,106 @@ body{
 .aviso{
     text-align: center;
     font-size: 13px;
+}
+
+@media screen and (min-width: 426px) {
+    
+    .mainArticle__Titulo1, .mainArticle__Titulo2{
+        font-size: 1.5rem;
+    }
+
+    .mainArticle__Texto1, .mainArticle__Texto2{
+        font-size: 1.2rem;
+    }
+
+    .clients__Title h2{
+        font-size: 2rem;
+    }
+
+    .clients__Imgs{
+        height: fit-content;
+    }
+
+    .clients__Cite1, .clients__Name1, .clients__Cite2, .clients__Name2{
+        font-size: 16px;
+    }
+
+    .trabajoTitle{
+        font-size: 2rem;
+    }
+
+    .steps__Title1, .steps__Title2, .steps__Title3{
+        font-size: 18px;
+    }
+
+    .step1__Title{
+        font-size: 1.3rem;
+    }
+
+    .step1__SubTitle{
+        font-size: 1.1rem;
+    }
+
+    .step1__Text{
+        font-size: 1rem;
+    }
+
+    .equipoTitle{
+        font-size: 2rem;
+    }
+
+    .profile1__Name, .profile2__Name{
+        font-size: 1.3rem;
+    }
+
+    .profile1__Desc, .profile2__Desc{
+        font-size: 1.1rem;
+    }
+
+    .profile1__Text, .profile2__Text{
+        font-size: 1rem;
+    }
+
+    .areasTitle{
+        font-size: 2rem;
+    }
+
+    .areasText{
+        font-size: 1.3rem;
+    }
+    
+    .areasText h3{
+        font-size: 1.1rem;
+    }
+    
+    .areasText p{
+        font-size: 1rem;
+    }
+
+    .whatsapp, .phone, .mail{
+        height: fit-content;
+    }
+
+    .whatsapp__Img, .phone__Img, .mail__Img{
+        width: 20%;
+        height: auto;
+        max-height: 200px;
+        align-self: center;
+    }
+
+    .whatsapp__Number, .phone__Number, .mail__Mail{
+        font-size: 18px;
+    }
+
+    .mapInfo{
+        height: fit-content;
+    }
+
+    .mapouter{
+        height: fit-content;
+    }
+
+    .mapouter iframe{
+        height: 300px;
+    }
 }
