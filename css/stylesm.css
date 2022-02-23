@@ -263,6 +263,12 @@ body{
     font-size: 14px;
 }
 
+
+
+
+
+
+
 .trabajo{
     display: grid;
     grid-template-rows: auto auto auto auto auto;
@@ -372,6 +378,9 @@ body{
 .step1__Img, .step2__Img, .step3__Img{
     width: 90%;
 }
+
+
+
 
 .equipo{
     display: grid;
