@@ -1,0 +1,54 @@
+.equipo{
+    display: grid;
+    grid-template-rows: auto, auto, auto;
+    gap: 3rem;
+    margin-bottom: 5%;
+
+    .equipoTitle{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .profile1, .profile2{
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        gap: 10%;
+
+        .profile1__Img, .profile2__Img{
+            align-self: center;
+            width: 45vw;
+            height: auto;
+            margin-bottom: 5%;
+            min-width: 165px;
+            min-height: 155px;
+        }
+        
+        .profile1__Div, .profile2__Div{
+            background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+            padding: 10px 30px 10px 30px;
+            border-radius: 10px;
+            box-shadow: 6.2px 12.5px 12.5px #0000004f;
+            max-height: 440px;
+            overflow-y: auto;
+
+            .profile1__Name, .profile2__Name{
+                font-size: 18px;
+                margin-bottom: 1px;
+                text-align: center;
+            }
+            
+            .profile1__Desc, .profile2__Desc{
+                font-size: 16px;
+                text-align: center;
+                font-family: 'Merriweather', serif;
+            }
+            
+            .profile1__Text, .profile2__Text{
+                font-size: 13px;
+                font-family: 'Merriweather', serif;
+            }
+        }
+    }
+}

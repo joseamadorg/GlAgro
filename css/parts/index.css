@@ -1,0 +1,183 @@
+.index {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  gap: 4rem;
+}
+
+.index .logo {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: -30%;
+  background-repeat: no-repeat;
+  background-image: url(../../images/Graupera-Home-07.jpg);
+  background-size: 100%;
+}
+
+.index .logo img {
+  margin: 7% auto 20% auto;
+  width: 70%;
+  padding: 20px 30px 20px 30px;
+  display: block;
+  background-color: rgba(156, 152, 148, 0.753);
+  border-radius: 20px;
+}
+
+.index .mainArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.index .mainArticle .mainArticle__Bloque1, .index .mainArticle .mainArticle__Bloque2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
+.index .mainArticle .mainArticle__Bloque1 .mainArticle__Div, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.index .mainArticle .mainArticle__Bloque1 .mainArticle__Div .mainArticle__Titulo1, .index .mainArticle .mainArticle__Bloque1 .mainArticle__Div .mainArticle__Titulo2, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div .mainArticle__Titulo1, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div .mainArticle__Titulo2 {
+  font-size: 19px;
+  background-color: rgba(145, 143, 143, 0.925);
+  border-radius: 10px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.index .mainArticle .mainArticle__Bloque1 .mainArticle__Div .mainArticle__Texto1, .index .mainArticle .mainArticle__Bloque1 .mainArticle__Div .mainArticle__Texto2, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div .mainArticle__Texto1, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div .mainArticle__Texto2 {
+  font-size: 12px;
+  background-color: rgba(145, 143, 143, 0.925);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.index .mainArticle .mainArticle__Bloque1 .mainArticle__Div .mainArticle__Texto1 p, .index .mainArticle .mainArticle__Bloque1 .mainArticle__Div .mainArticle__Texto2 p, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div .mainArticle__Texto1 p, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Div .mainArticle__Texto2 p {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+}
+
+.index .mainArticle .mainArticle__Bloque1 .mainArticle__Img1, .index .mainArticle .mainArticle__Bloque1 .mainArticle__Img2, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Img1, .index .mainArticle .mainArticle__Bloque2 .mainArticle__Img2 {
+  display: none;
+}
+
+.index .mainArticle .mainArticle__Bloque1 {
+  background-image: url(../../images/img01.jpg);
+  background-size: 110% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+}
+
+.index .mainArticle .mainArticle__Bloque2 {
+  background-image: url(../../images/Graupera-Home-05.jpg);
+  background-size: 110% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+}
+
+.index .clients {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  gap: 4rem;
+  padding-bottom: 60px;
+  margin-bottom: 10px;
+}
+
+.index .clients .clients__Title {
+  margin: 0px;
+  text-align: center;
+}
+
+.index .clients .clients__Imgs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 1fr 1fr / 1fr 1fr;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  height: 300px;
+  gap: 1rem;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.index .clients .clients__Imgs img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.index .clients .clients__Comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 30px 20px 30px;
+}
+
+.index .clients .clients__Comments .clients__Comment1, .index .clients .clients__Comments .clients__Comment2 {
+  background: radial-gradient(circle, #dae80e 0%, #c7b72a 100%);
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+  border-radius: 20px;
+  padding: 30px 30px 30px 30px;
+}
+
+.index .clients .clients__Comments .clients__Comment1 .clients__Cite1, .index .clients .clients__Comments .clients__Comment1 .clients__Name1, .index .clients .clients__Comments .clients__Comment1 .clients__Cite2, .index .clients .clients__Comments .clients__Comment1 .clients__Name2, .index .clients .clients__Comments .clients__Comment2 .clients__Cite1, .index .clients .clients__Comments .clients__Comment2 .clients__Name1, .index .clients .clients__Comments .clients__Comment2 .clients__Cite2, .index .clients .clients__Comments .clients__Comment2 .clients__Name2 {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+/*# sourceMappingURL=index.css.map */

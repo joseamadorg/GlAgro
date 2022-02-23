@@ -1,0 +1,67 @@
+.areas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  gap: 3rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-items: center;
+}
+
+.areas .areasTitle {
+  font-size: 22px;
+  text-align: center;
+}
+
+.areas .areasButtons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto;
+  -ms-grid-columns: auto auto auto;
+      grid-template: auto auto / auto auto auto;
+  gap: 1rem;
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 150%;
+}
+
+.areas .areasButtons button {
+  width: 100%;
+  height: 120%;
+  border-radius: 10px;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ccd71b), to(#739300));
+  background-image: linear-gradient(90deg, #ccd71b 0%, #739300 100%);
+  border: none;
+}
+
+.areas .areasText {
+  margin: 5%;
+  padding: 20px 30px 20px 30px;
+  background: radial-gradient(circle, #b3be13 0%, #5ba10c 100%);
+  border-radius: 20px;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+  height: 60vh;
+  overflow-y: auto;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.areas .areasText h3 {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-top: 0%;
+}
+
+.areas .areasText p {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+/*# sourceMappingURL=areas.css.map */

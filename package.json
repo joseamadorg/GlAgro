@@ -1,0 +1,25 @@
+{
+  "name": "glagrollabot",
+  "version": "1.0.0",
+  "description": "Sass gl agro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ignacio-Llabot/GlAgro.git"
+  },
+  "author": "Ignacio Llabot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ignacio-Llabot/GlAgro/issues"
+  },
+  "homepage": "https://github.com/Ignacio-Llabot/GlAgro#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,141 @@
+.trabajo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto auto auto;
+      grid-template-rows: auto auto auto auto auto;
+  gap: 3rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.trabajo .trabajoTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+}
+
+.trabajo .steps a {
+  color: black;
+  text-decoration: none;
+}
+
+.trabajo .steps a:visited {
+  color: black;
+}
+
+.trabajo .steps .steps__Step1, .trabajo .steps .steps__Step2, .trabajo .steps .steps__Step3 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ccd71b), to(#739300));
+  background-image: linear-gradient(90deg, #ccd71b 0%, #739300 100%);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+  padding: 15%;
+}
+
+.trabajo .steps .steps__Step1 .steps__Img1, .trabajo .steps .steps__Step1 .steps__Img2, .trabajo .steps .steps__Step1 .steps__Img3, .trabajo .steps .steps__Step2 .steps__Img1, .trabajo .steps .steps__Step2 .steps__Img2, .trabajo .steps .steps__Step2 .steps__Img3, .trabajo .steps .steps__Step3 .steps__Img1, .trabajo .steps .steps__Step3 .steps__Img2, .trabajo .steps .steps__Step3 .steps__Img3 {
+  width: 40%;
+  height: auto;
+  margin-right: auto;
+}
+
+.trabajo .steps .steps__Step1 .steps__Title1, .trabajo .steps .steps__Step1 .steps__Title2, .trabajo .steps .steps__Step1 .steps__Title3, .trabajo .steps .steps__Step2 .steps__Title1, .trabajo .steps .steps__Step2 .steps__Title2, .trabajo .steps .steps__Step2 .steps__Title3, .trabajo .steps .steps__Step3 .steps__Title1, .trabajo .steps .steps__Step3 .steps__Title2, .trabajo .steps .steps__Step3 .steps__Title3 {
+  font-size: 12px;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+
+.trabajo .step1, .trabajo .step2, .trabajo .step3 {
+  background: radial-gradient(circle, #b3be13 0%, #5ba10c 100%);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: none;
+      grid-template-columns: none;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  gap: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 90%;
+  height: 110%;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+}
+
+.trabajo .step1 .step1__Div, .trabajo .step1 .step2__Div, .trabajo .step1 .step3__Div, .trabajo .step2 .step1__Div, .trabajo .step2 .step2__Div, .trabajo .step2 .step3__Div, .trabajo .step3 .step1__Div, .trabajo .step3 .step2__Div, .trabajo .step3 .step3__Div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 15px;
+  overflow-y: auto;
+}
+
+.trabajo .step1 .step1__Div .step1__Title, .trabajo .step1 .step1__Div .step2__Title, .trabajo .step1 .step1__Div .step3__Title, .trabajo .step1 .step2__Div .step1__Title, .trabajo .step1 .step2__Div .step2__Title, .trabajo .step1 .step2__Div .step3__Title, .trabajo .step1 .step3__Div .step1__Title, .trabajo .step1 .step3__Div .step2__Title, .trabajo .step1 .step3__Div .step3__Title, .trabajo .step2 .step1__Div .step1__Title, .trabajo .step2 .step1__Div .step2__Title, .trabajo .step2 .step1__Div .step3__Title, .trabajo .step2 .step2__Div .step1__Title, .trabajo .step2 .step2__Div .step2__Title, .trabajo .step2 .step2__Div .step3__Title, .trabajo .step2 .step3__Div .step1__Title, .trabajo .step2 .step3__Div .step2__Title, .trabajo .step2 .step3__Div .step3__Title, .trabajo .step3 .step1__Div .step1__Title, .trabajo .step3 .step1__Div .step2__Title, .trabajo .step3 .step1__Div .step3__Title, .trabajo .step3 .step2__Div .step1__Title, .trabajo .step3 .step2__Div .step2__Title, .trabajo .step3 .step2__Div .step3__Title, .trabajo .step3 .step3__Div .step1__Title, .trabajo .step3 .step3__Div .step2__Title, .trabajo .step3 .step3__Div .step3__Title {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+.trabajo .step1 .step1__Div .step1__SubTitle, .trabajo .step1 .step1__Div .step2__SubTitle, .trabajo .step1 .step1__Div .step3__SubTitle, .trabajo .step1 .step2__Div .step1__SubTitle, .trabajo .step1 .step2__Div .step2__SubTitle, .trabajo .step1 .step2__Div .step3__SubTitle, .trabajo .step1 .step3__Div .step1__SubTitle, .trabajo .step1 .step3__Div .step2__SubTitle, .trabajo .step1 .step3__Div .step3__SubTitle, .trabajo .step2 .step1__Div .step1__SubTitle, .trabajo .step2 .step1__Div .step2__SubTitle, .trabajo .step2 .step1__Div .step3__SubTitle, .trabajo .step2 .step2__Div .step1__SubTitle, .trabajo .step2 .step2__Div .step2__SubTitle, .trabajo .step2 .step2__Div .step3__SubTitle, .trabajo .step2 .step3__Div .step1__SubTitle, .trabajo .step2 .step3__Div .step2__SubTitle, .trabajo .step2 .step3__Div .step3__SubTitle, .trabajo .step3 .step1__Div .step1__SubTitle, .trabajo .step3 .step1__Div .step2__SubTitle, .trabajo .step3 .step1__Div .step3__SubTitle, .trabajo .step3 .step2__Div .step1__SubTitle, .trabajo .step3 .step2__Div .step2__SubTitle, .trabajo .step3 .step2__Div .step3__SubTitle, .trabajo .step3 .step3__Div .step1__SubTitle, .trabajo .step3 .step3__Div .step2__SubTitle, .trabajo .step3 .step3__Div .step3__SubTitle {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 5px;
+}
+
+.trabajo .step1 .step1__Div .step1__Text, .trabajo .step1 .step1__Div .step2__Text, .trabajo .step1 .step1__Div .step3__Text, .trabajo .step1 .step2__Div .step1__Text, .trabajo .step1 .step2__Div .step2__Text, .trabajo .step1 .step2__Div .step3__Text, .trabajo .step1 .step3__Div .step1__Text, .trabajo .step1 .step3__Div .step2__Text, .trabajo .step1 .step3__Div .step3__Text, .trabajo .step2 .step1__Div .step1__Text, .trabajo .step2 .step1__Div .step2__Text, .trabajo .step2 .step1__Div .step3__Text, .trabajo .step2 .step2__Div .step1__Text, .trabajo .step2 .step2__Div .step2__Text, .trabajo .step2 .step2__Div .step3__Text, .trabajo .step2 .step3__Div .step1__Text, .trabajo .step2 .step3__Div .step2__Text, .trabajo .step2 .step3__Div .step3__Text, .trabajo .step3 .step1__Div .step1__Text, .trabajo .step3 .step1__Div .step2__Text, .trabajo .step3 .step1__Div .step3__Text, .trabajo .step3 .step2__Div .step1__Text, .trabajo .step3 .step2__Div .step2__Text, .trabajo .step3 .step2__Div .step3__Text, .trabajo .step3 .step3__Div .step1__Text, .trabajo .step3 .step3__Div .step2__Text, .trabajo .step3 .step3__Div .step3__Text {
+  font-size: 13px;
+  font-family: 'Merriweather', serif;
+}
+
+.trabajo .step1 .step1__Img, .trabajo .step1 .step2__Img, .trabajo .step1 .step3__Img, .trabajo .step2 .step1__Img, .trabajo .step2 .step2__Img, .trabajo .step2 .step3__Img, .trabajo .step3 .step1__Img, .trabajo .step3 .step2__Img, .trabajo .step3 .step3__Img {
+  height: auto;
+  width: 90%;
+}
+
+.trabajo .step1 .step1__Img, .trabajo .step1 .step3__Img, .trabajo .step2 .step1__Img, .trabajo .step2 .step3__Img, .trabajo .step3 .step1__Img, .trabajo .step3 .step3__Img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+}
+
+.trabajo .step1 .step2__Img, .trabajo .step2 .step2__Img, .trabajo .step3 .step2__Img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+}
+
+.trabajo .step2, .trabajo .step3 {
+  display: none;
+}
+/*# sourceMappingURL=trabajo.css.map */

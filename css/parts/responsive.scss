@@ -1,0 +1,475 @@
+@media screen and (min-width: 426px) {
+    
+    .mainArticle__Titulo1, .mainArticle__Titulo2{
+        font-size: 1.5rem;
+    }
+
+    .mainArticle__Texto1, .mainArticle__Texto2{
+        font-size: 1.2rem;
+    }
+
+    .clients__Title h2{
+        font-size: 2rem;
+    }
+
+    .clients__Imgs{
+        height: fit-content;
+    }
+
+    .clients__Cite1, .clients__Name1, .clients__Cite2, .clients__Name2{
+        font-size: 16px;
+    }
+
+    .trabajoTitle{
+        font-size: 2rem;
+    }
+
+    .steps__Title1, .steps__Title2, .steps__Title3{
+        font-size: 18px;
+    }
+
+    .step1__Title{
+        font-size: 1.3rem;
+    }
+
+    .step1__SubTitle{
+        font-size: 1.1rem;
+    }
+
+    .step1__Text{
+        font-size: 1rem;
+    }
+
+    .equipoTitle{
+        font-size: 2rem;
+    }
+
+    .profile1__Name, .profile2__Name{
+        font-size: 1.3rem;
+    }
+
+    .profile1__Desc, .profile2__Desc{
+        font-size: 1.1rem;
+    }
+
+    .profile1__Text, .profile2__Text{
+        font-size: 1rem;
+    }
+
+    .areasTitle{
+        font-size: 2rem;
+    }
+
+    .areasText{
+        font-size: 1.3rem;
+    }
+    
+    .areasText h3{
+        font-size: 1.1rem;
+    }
+    
+    .areasText p{
+        font-size: 1rem;
+    }
+
+    .whatsapp, .phone, .mail{
+        height: fit-content;
+    }
+
+    .whatsapp__Img, .phone__Img, .mail__Img{
+        width: 20%;
+        height: auto;
+        max-height: 200px;
+        align-self: center;
+    }
+
+    .whatsapp__Number, .phone__Number, .mail__Mail{
+        font-size: 18px;
+    }
+
+    .mapInfo{
+        height: fit-content;
+    }
+
+    .mapouter{
+        height: fit-content;
+    }
+
+    .mapouter iframe{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .menu-btn{
+        display: none;
+    }
+
+    .navBar__Title{
+        text-align: left;
+    }
+
+    .navBar__Buttons1 {background-image: linear-gradient(90deg, rgba(204,215,27,1) 0%, rgba(115,147,0,1) 100%);}
+    .navBar__Buttons1 {
+       margin: 10px;
+       padding: 1px 5px 1px 5px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       color: black;            
+       box-shadow: 3.1px 6.25px 12.5px #0000004f;
+       border-radius: 5px;
+       display: block
+     }
+
+     .navBar__Buttons1:hover {
+       background-position: right center;
+       color: black;
+       text-decoration: none;
+       box-shadow: 6.2px 12.5px 12.5px #0000004f;
+     }
+
+    .navBar__Buttons{
+        justify-content: flex-end;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+
+    .navBar__Buttons a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .navBar__Buttons a:visited{
+        color: black;
+    }
+
+    .navBar__Buttons1 p{
+        margin-top: 4px;
+        margin-bottom: 2px;
+    }
+
+    .logo img{
+        width: 60%;
+    }
+
+    .logo{
+        margin-bottom: -20%;
+    }
+
+    .mainArticle{
+        gap: 6rem;
+    }
+
+    .mainArticle__Img1, .mainArticle__Img2{
+        display: inline-block;
+    }
+
+    .mainArticle__Bloque1, .mainArticle__Bloque2{
+        background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+        padding: 5% 5% 5% 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mainArticle__Titulo1, .mainArticle__Texto1{
+        background-color: transparent;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        margin-left: 0;
+    }
+    
+    .mainArticle__Titulo2, .mainArticle__Texto2{
+        background-color: transparent;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        margin-left: 0;
+    }
+
+    .clients__Imgs{
+        background: radial-gradient(circle, rgba(218,232,14,1) 0%, rgba(199,183,42,1) 100%);
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+        padding-top: 40px;
+        padding-bottom: 40px; 
+    }
+
+    .clients__Imgs img{
+        width: 20%;
+        box-shadow: 4.0px 8.0px 8.0px #00000061;
+    }
+
+    .clients__Comments{
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    .clients__Cite1, .clients__Name1, .clients__Cite2, .clients__Name2{
+        font-size: 1rem;
+    }
+
+    .trabajo{
+        gap: 6rem;
+    }
+
+    .trabajoTitle{
+        font-size: 2rem;
+    }
+
+    .steps{
+        justify-content: space-around;
+    }
+    
+    .steps__Title1, .steps__Title2, .steps__Title3{
+        font-size: 1.5rem;
+    }
+
+    .step1, .step2, .step3{
+        background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+        display: flex;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+        width: 100%;
+    }
+
+    .step1__Img, .step2__Img, .step3__Img{
+        width: 40%;
+    }
+
+    .step1__Title, .step2__Title, .step3__Title{
+        font-size: 1.3rem;
+    }
+
+    .step1__SubTitle, .step2__SubTitle, .step3__SubTitle{
+        font-size: 1.1rem;
+    }
+
+    .step1__Text, .step2__Text, .step3__Text{
+        font-size: 1rem;
+    }
+
+    .equipoTitle{
+        font-size: 2rem;
+    }
+
+    .profile1__Img, .profile2__Img{
+        max-width: 480px;
+        max-width: 450px;
+    }
+
+    .profile1__Name, .profile2__Name{
+        font-size: 1.5rem;
+    }
+
+    .profile1__Desc, .profile2__Desc{
+        font-size: 1.3rem;
+    }
+
+    .profile1__Text, .profile2__Text{
+        font-size: 1.1rem;
+    }
+
+    .areasButtons{
+        gap: 2rem;
+    }
+
+    .areasText{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        overflow-y: visible;
+        height: fit-content;
+    }
+
+    .areasText h3{
+        font-size: 1.5rem;
+    }
+
+    .areasText p{
+        font-size: 1.1rem;
+    }
+
+
+
+    .contacto{
+        display: grid;
+        grid-template-rows: auto, auto, auto, auto;
+        gap: 8rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .contactoTitle{
+        display: flex;
+        justify-content: center;
+        font-size: 250%;
+    }
+    
+    .contactInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 95%!important;
+        gap: 0;
+    }
+
+    .whatsapp, .phone, .mail {
+        height: auto;
+    }    
+    
+    .whatsapp, .phone{
+        display: flex;
+        flex-direction: row;
+        width: 25vw;
+        background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+        padding: 15px 15px 15px 15px;
+        border-radius: 20px;
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+    }
+    
+    .whatsapp__Img, .phone__Img, .mail__Img{
+        align-self: center;
+        margin-right: auto;
+    }
+    
+    .whatsapp__Number, .phone__Number, .mail__Mail{
+        font-size: 23px;
+        align-self: center;
+    }
+    
+    .mail{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+        padding: 15px 75px 15px 15px;
+        border-radius: 20px;
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+    }
+    
+    .mapInfo{
+        background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        width: 83vw;
+        height: 550px;
+        justify-content: space-between;
+        border-radius: 20px;
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+    }
+    
+    .mapInfo__Div{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-self: center;
+        width: fit-content;
+    }
+    
+    .adress, .location{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        margin-left: 50px;
+    }
+    
+    .adress__Img, .location__Img{
+        align-self: center;
+        width: 5rem;
+        height: auto
+    }
+    
+    .mapouter{
+        position: relative;
+        align-self: center;
+        width:50%;
+        height:70%;
+        object-fit:cover;
+    }
+    
+    .mapouter iframe{
+        position: relative;
+        align-self: center;
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+    
+    .adress__Text, .location__Text{
+        font-size: 23px;
+        align-self: center;
+    }
+    
+    .contactForm{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .contactForm h3{
+        display: flex;
+        justify-content: center;
+        font-size: 250%;
+    }
+    
+    .contactForm form{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        background: radial-gradient(circle, rgba(179,190,19,1) 0%, rgba(91,161,12,1) 100%);
+        border-radius: 20px;
+        padding-left: 0px;
+        box-shadow: 6.2px 12.5px 12.5px #0000004f;
+    }
+    
+    .contactForm form p{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        width: 60%;
+    }
+    
+    .contactForm form p label{
+        font-size: 25px;
+    }
+    
+    .contactForm form p input{
+        width: 90%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .contactForm form p textarea{
+        width: 100%;
+        height: 300px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .contactForm form button{
+        width: 20%;
+        align-self: center;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .contactForm form button p{
+        display: inline-block;
+    }
+    
+    .aviso{
+        font-size: 18px;
+    }
+}

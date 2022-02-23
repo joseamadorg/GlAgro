@@ -1,0 +1,69 @@
+.equipo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto, auto, auto;
+      grid-template-rows: auto, auto, auto;
+  gap: 3rem;
+  margin-bottom: 5%;
+}
+
+.equipo .equipoTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+}
+
+.equipo .profile1, .equipo .profile2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10%;
+}
+
+.equipo .profile1 .profile1__Img, .equipo .profile1 .profile2__Img, .equipo .profile2 .profile1__Img, .equipo .profile2 .profile2__Img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 45vw;
+  height: auto;
+  margin-bottom: 5%;
+  min-width: 165px;
+  min-height: 155px;
+}
+
+.equipo .profile1 .profile1__Div, .equipo .profile1 .profile2__Div, .equipo .profile2 .profile1__Div, .equipo .profile2 .profile2__Div {
+  background: radial-gradient(circle, #b3be13 0%, #5ba10c 100%);
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+  max-height: 440px;
+  overflow-y: auto;
+}
+
+.equipo .profile1 .profile1__Div .profile1__Name, .equipo .profile1 .profile1__Div .profile2__Name, .equipo .profile1 .profile2__Div .profile1__Name, .equipo .profile1 .profile2__Div .profile2__Name, .equipo .profile2 .profile1__Div .profile1__Name, .equipo .profile2 .profile1__Div .profile2__Name, .equipo .profile2 .profile2__Div .profile1__Name, .equipo .profile2 .profile2__Div .profile2__Name {
+  font-size: 18px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.equipo .profile1 .profile1__Div .profile1__Desc, .equipo .profile1 .profile1__Div .profile2__Desc, .equipo .profile1 .profile2__Div .profile1__Desc, .equipo .profile1 .profile2__Div .profile2__Desc, .equipo .profile2 .profile1__Div .profile1__Desc, .equipo .profile2 .profile1__Div .profile2__Desc, .equipo .profile2 .profile2__Div .profile1__Desc, .equipo .profile2 .profile2__Div .profile2__Desc {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.equipo .profile1 .profile1__Div .profile1__Text, .equipo .profile1 .profile1__Div .profile2__Text, .equipo .profile1 .profile2__Div .profile1__Text, .equipo .profile1 .profile2__Div .profile2__Text, .equipo .profile2 .profile1__Div .profile1__Text, .equipo .profile2 .profile1__Div .profile2__Text, .equipo .profile2 .profile2__Div .profile1__Text, .equipo .profile2 .profile2__Div .profile2__Text {
+  font-size: 13px;
+  font-family: 'Merriweather', serif;
+}
+/*# sourceMappingURL=equipo.css.map */

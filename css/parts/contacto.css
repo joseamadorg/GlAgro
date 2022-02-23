@@ -1,0 +1,212 @@
+.contacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto, auto, auto, auto;
+      grid-template-rows: auto, auto, auto, auto;
+  gap: 3rem;
+  justify-items: center;
+  margin-bottom: 10%;
+}
+
+.contacto .contactoTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contacto .contactInfo {
+  gap: 2rem;
+}
+
+.contacto .contactInfo .whatsapp, .contacto .contactInfo .phone, .contacto .contactInfo .mail {
+  padding: 3%;
+  height: 60px;
+  background: radial-gradient(circle, #b3be13 0%, #5ba10c 100%);
+  padding: 15px 15px 15px 15px;
+  border-radius: 20px;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+}
+
+.contacto .contactInfo .whatsapp .whatsapp__Img, .contacto .contactInfo .whatsapp .phone__Img, .contacto .contactInfo .whatsapp .mail__Img, .contacto .contactInfo .phone .whatsapp__Img, .contacto .contactInfo .phone .phone__Img, .contacto .contactInfo .phone .mail__Img, .contacto .contactInfo .mail .whatsapp__Img, .contacto .contactInfo .mail .phone__Img, .contacto .contactInfo .mail .mail__Img {
+  width: 20%;
+  height: auto;
+  max-height: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contacto .contactInfo .whatsapp .whatsapp__Number, .contacto .contactInfo .whatsapp .phone__Number, .contacto .contactInfo .whatsapp .mail__Mail, .contacto .contactInfo .phone .whatsapp__Number, .contacto .contactInfo .phone .phone__Number, .contacto .contactInfo .phone .mail__Mail, .contacto .contactInfo .mail .whatsapp__Number, .contacto .contactInfo .mail .phone__Number, .contacto .contactInfo .mail .mail__Mail {
+  font-size: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.contacto .mapInfo {
+  background: radial-gradient(circle, #b3be13 0%, #5ba10c 100%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 83vw;
+  height: 450px;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+}
+
+.contacto .mapInfo .mapInfo__Div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.contacto .mapInfo .mapInfo__Div .adress, .contacto .mapInfo .mapInfo__Div .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+}
+
+.contacto .mapInfo .mapInfo__Div .adress .adress__Text, .contacto .mapInfo .mapInfo__Div .adress .location__Text, .contacto .mapInfo .mapInfo__Div .location .adress__Text, .contacto .mapInfo .mapInfo__Div .location .location__Text {
+  font-size: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contacto .mapInfo .mapouter {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 80%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contacto .mapInfo .mapouter iframe {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contactForm {
+  margin: 0;
+  width: 80vw;
+}
+
+.contactForm h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+}
+
+.contactForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 30px;
+  background: radial-gradient(circle, #b3be13 0%, #5ba10c 100%);
+  border-radius: 20px;
+  padding-left: 0px;
+  -webkit-box-shadow: 6.2px 12.5px 12.5px #0000004f;
+          box-shadow: 6.2px 12.5px 12.5px #0000004f;
+}
+
+.contactForm form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.contactForm form p label {
+  font-size: 16px;
+}
+
+.contactForm form p input {
+  width: 90%;
+  height: 30px;
+  font-size: 16px;
+}
+
+.contactForm form p textarea {
+  width: 90%;
+  height: 150px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.contactForm form button {
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contactForm form button p {
+  display: inline-block;
+}
+
+.contactForm form .aviso {
+  text-align: center;
+  font-size: 13px;
+}
+/*# sourceMappingURL=contacto.css.map */
